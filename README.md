@@ -1,26 +1,79 @@
-# Book Store MERN stack project
+# MERN Stack CRUD Web App
 
-## Lessons
+## Description
+This is Book Store App, which is based on CRUD Applications, utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
-- [x] Lesson 01: Create Node.js project from scratch
-- [x] Lesson 02: Create our first Http Route
-- [x] Lesson 03: Add MongoDB and mongoose to node js
-- [x] Lesson 04: Create Book model with mongoose
-- [x] Lesson 05: Save a new Book with mongoose
-- [x] Lesson 06: Get All Books with mongoose
-- [x] Lesson 07: Get One Book by id with mongoose
-- [x] Lesson 08: Update a Book with mongoose
-- [x] Lesson 09: Delete a book with mongoose
-- [x] Lesson 10: Refactor Node js with express router
-- [x] Lesson 11: CORS policy in Node js and Express js
-- [x] Lesson 12: Create React project, Vite, Tailwind CSS
-- [x] Lesson 13: SPA and Add react router dom
-- [x] Lesson 14: Show Books List in React
-- [x] Lesson 15: Show Book Details in React
-- [x] Lesson 16: Create Book in React
-- [x] Lesson 17: Edit Book in React
-- [x] Lesson 18: Delete Book in React
-- [x] Lesson 19: Show Books List as Card
-- [x] Lesson 20: Make Book Card a single component
-- [x] Lesson 21: Add Book Modal
-- [x] Lesson 22: Improve User Experience (UX) with beautiful alert
+## For running the application locally
+### Clone this repository in your local machine
+```
+git clone https://github.com/srijan-99/mern-book-store.git
+```
+
+## Installation
+1. Clone this repository to your local machine.
+2. Install Node.js from [Node.js website](https://nodejs.org/).
+3. Install MongoDB from [MongoDB website](https://www.mongodb.com/).
+4. Navigate to the project directory in the terminal/command prompt.
+5. Run `npm install` to install the necessary dependencies.
+6. Configure the MongoDB connection in the backend code.
+
+### For running the client-side server
+Enter the client directory
+```
+cd "mern-book-store/frontend"
+```
+
+Install the dependencies
+```
+npm i
+```
+
+Start the frontend server
+```
+npm run dev
+```
+
+### For running the backend server
+Enter the server directory
+```
+cd "mern-book-store/backend"
+```
+
+Configure the MongoDB connection in the backend code in the file:
+```
+mern-book-store/backend/config.js
+```
+
+Install the dependencies
+```
+npm i
+```
+
+Start the backend server
+```
+npm start
+```
+or
+```
+npm run dev
+```
+
+## Usage
+1. Ensure MongoDB is running.
+2. Navigate to the project directory in the terminal/command prompt.
+3. Run `node index.js` to start the backend server.
+4. Open a web browser and visit `http://localhost:PORT` (replace `PORT` with the port number specified in the code) to access the application.
+
+## Technologies Used
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- Mongoose
+- Tailwind CSS
+
+## Contributors
+- [Srijan Ojha](https://www.github.com/srijan-99)
+
+## Contact
+For inquiries or support, please contact [srijanojha26@gmail.com](mailto:srijanojha26@gmail.com)
