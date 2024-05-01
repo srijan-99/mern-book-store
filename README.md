@@ -1,4 +1,4 @@
-# MERN Stack CRUD Web App
+# MERN Stack Book Store Web App
 
 ## Description
 This is Book Store App, which is based on CRUD Applications, utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack.
